@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>H2S AR – View in your room</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: #f3f4f6;
+      color: #111827;
+      padding: 20px 16px 48px;
+    }
+    main { max-width: 520px; margin: 0 auto; }
+    h1 { font-size: 1.5rem; margin: 8px 0 4px; }
+    .lede { color: #4b5563; font-size: 0.98rem; line-height: 1.45; margin: 0 0 24px; }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 16px 16px 20px;
+      margin: 0 0 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    }
+    a[rel="ar"] {
+      display: block;
+      line-height: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+    a[rel="ar"] img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      background: #f3f4f6;
+    }
+    .label {
+      display: block;
+      margin-top: 12px;
+      font-size: 1.05rem;
+      font-weight: 600;
+      text-align: center;
+    }
+    .hint { font-size: 0.85rem; color: #6b7280; text-align: center; margin-top: 6px; }
+    .note { font-size: 0.85rem; color: #6b7280; line-height: 1.45; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Bambu Lab H2S in AR</h1>
+    <p class="lede">On iPhone or iPad, tap a picture. Apple AR Quick Look opens so you can place the printer at real size on your workbench. Open this page in Safari if another browser was used.</p>
+
+    <div class="card">
+      <a rel="ar" href="H2S_AR.usdz#allowsContentScaling=0">
+        <img src="H2S_thumb.png" alt="H2S printer AR model">
+      </a>
+      <span class="label">H2S printer (492x514x626 mm)</span>
+      <div class="hint">Printer only · about 30 kg</div>
+    </div>
+
+    <div class="card">
+      <a rel="ar" href="H2S_Combo_AR.usdz#allowsContentScaling=0">
+        <img src="H2S_Combo_thumb.png" alt="H2S Combo with AMS 2 Pro AR model">
+      </a>
+      <span class="label">H2S Combo with AMS 2 Pro (852 mm tall)</span>
+      <div class="hint">Printer plus AMS 2 Pro on top</div>
+    </div>
+
+    <p class="note">Leave about 800 × 1020 × 1050 mm of clear space, and at least 10 cm behind the printer for the vent and cables. These are dimension-accurate block models, not official Bambu files.</p>
+  </main>
+</body>
+</html>
